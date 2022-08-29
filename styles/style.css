@@ -1,0 +1,161 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+header { 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #D7D4FF;
+   width: 100%;
+   padding: 2rem 0 2rem 0;
+}
+
+.texto h3 { 
+   font-family: 'Merriweather';
+   font-size: 22px;
+}
+
+.texto p { 
+   font-family: 'Lato';
+   margin: 10px 0 0 0;
+}
+
+.done button { 
+   font-family: 'Lato';
+   color: #fff;
+   font-size: 16px; 
+   cursor: pointer;
+   height: 3rem;
+   width: 6rem;
+   margin: 2rem 0 0 0 ;
+   background-color: #6C63FF;
+   border: none;
+   border-radius: 5px;
+   transition: 1s ;
+}
+
+.done button:hover { 
+   transition: 1s ;
+   background-color: #433be4;
+}
+
+.container1 { 
+   margin: 4rem 0 0 0 ;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.card { 
+   width: 16rem;
+   height: 20rem;
+   background-color: #ffffff;
+   margin: 0 0 2rem 0 ;
+   border-radius: 10px;
+   box-shadow: 5px 5px 20px rgb(161, 161, 161);
+   transition: 2s;
+}
+
+.card:hover { 
+   box-shadow: 5px 5px 20px rgb(0, 255, 255);
+   transition: 2s;
+}
+
+.img-card { 
+   height: 50%;
+   width: 100%;
+   background-color: aqua;
+   border-radius: 10px;
+}
+
+.info-card { 
+   padding: 10px 10px ;
+}
+
+.info-card p { 
+   padding: 20px 0 0 0;
+   font-family: 'Lato';
+}
+
+.info-card h3 { 
+   font-family: 'Merriweather';
+}
+
+.container2 { 
+   margin: 4rem 0 0 0 ;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.contato { 
+   background-color: #D7D4FF ;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2rem 0 2rem 0 ;
+}
+
+.contato h2 { 
+   font-family: 'Merriweather';
+}
+
+form { 
+   margin: 1rem 0 0 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 70%;
+   gap: .5rem;
+}
+
+.inpt {
+   height: 2rem;
+}
+
+form input, textarea {
+   width: 35%;
+   border-radius: 5px;
+   border: none;
+   padding: 0 0 0 5px ;
+}
+
+form 
+input:focus, 
+textarea:focus { 
+   outline: none;
+}
+
+form textarea { 
+   padding: 5px 0 0 5px ;
+}
+
+form button { 
+   font-family: 'Lato';
+   color: #fff;
+   font-size: 16px; 
+   cursor: pointer;
+   height: 3rem;
+   width: 35%;
+   background-color: #6C63FF;
+   border: none;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+form button:hover {
+   transition: 1s ;
+   background-color: #433be4;
+}
